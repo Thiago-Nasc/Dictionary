@@ -31,7 +31,7 @@ html {
     gap: 4rem;
     color: var(--white);
     font-size: 2rem;
-    padding-top: 30%;
+    padding-top: 10rem;
 }
 
 /* container main */
@@ -81,7 +81,7 @@ html {
     width: 85%;
     margin: auto;
     padding: 1.5rem 0;
-    display: none;
+    color: var(--gray);
 }
 
 #searched-word {
