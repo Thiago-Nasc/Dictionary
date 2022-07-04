@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  CSS import  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--  JS import  -->
+    <script src="assets/js/script.js" defer></script>
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dicionário PT-BR</h1>
+        <div class="main">
+            <div class="search">
+                <input type="text" id="input-word" placeholder="digite uma palavra">
+                <button onclick="searchWord()">Buscar</button>
+            </div>
+            <div class="result" id="result">
+                <h2 id="searched-word"></h2>
+                <p><span>1°</span></p>
+                <p><span>2°</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

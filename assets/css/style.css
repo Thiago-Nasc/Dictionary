@@ -1,0 +1,105 @@
+/* zerando css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* css config */
+html {
+    font-size: 62.5%;
+    font-family: Helvetica;
+}
+
+:root {
+    --darkBlue: #0b141e;
+    --blue: #399af5;
+    --white: #eff1f5;
+    --gray: #171e27;
+}
+
+/* container */
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--darkBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    color: var(--white);
+    font-size: 2rem;
+    padding-top: 30%;
+}
+
+/* container main */
+.main {
+    width: 80%;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+.main .search {
+    width: 85%;
+    margin: auto;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: .1rem solid var(--darkBlue);
+}
+
+.main .search button,
+.main .search input {
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    height: 4rem;
+}
+
+.main .search input {
+    width: 80%;
+    border: 1px solid #000;
+    padding-left: .5rem;
+    font-size: 1.6rem;
+}
+
+.main .search button {
+    width: 30%;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* container result */
+.main .result {
+    width: 85%;
+    margin: auto;
+    padding: 1.5rem 0;
+    display: none;
+}
+
+#searched-word {
+    color: var(--darkBlue);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.main .result p {
+    color: var(--gray);
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.main .result p span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--darkblue);
+    margin-right: .5rem;
+}
