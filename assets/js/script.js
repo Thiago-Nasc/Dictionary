@@ -30,7 +30,7 @@ async function searchWord() {
             `;
         }).catch(() => {
             // tratando o retorno negativo da promise
-            result.innerHTML += '<p>Não foi possível encontrar o significado desta palavra</p>';
+            result.innerHTML += '<p>Não foi possível encontrar o significado desta palavra, verifique a ortografia e tente novamente</p>';
         });
     }
 }

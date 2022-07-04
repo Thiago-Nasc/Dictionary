@@ -64,7 +64,7 @@ html {
 .main .search input {
     width: 80%;
     border: 1px solid #000;
-    padding-left: .5rem;
+    text-align: center;
     font-size: 1.6rem;
 }
 
@@ -95,6 +95,7 @@ html {
     color: var(--gray);
     font-size: 1.6rem;
     margin: 1rem 0;
+    font-style: italic;
 }
 
 .main .result p span {

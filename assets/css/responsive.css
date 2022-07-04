@@ -1,0 +1,10 @@
+@media (min-width: 597px) {
+    .main {
+        width: 60%;
+    }
+
+    .main .search input {
+        width: 70%;
+        font-size: 2rem;
+    }
+}
