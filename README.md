@@ -11,4 +11,4 @@
 <h2 style='font-size: 25px'>the following technologies were used for the development of the application:</h2>
 <p style='font-size: 15px'>- HTML5</p>
 <p style='font-size: 15px'>- CSS3</p>
-<p style='font-size: 15px'>- Javascript</p>
+<p style='font-size: 15px'>- Typescript</p>
